@@ -39,3 +39,8 @@ const latinToMorse = {
 	'Y':'-.--',
 	'Z':'--..'
 }
+
+console.log(latinToMorse["A"])
+
+//function translateLatinCharacter()
+//
