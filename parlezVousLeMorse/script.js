@@ -1,15 +1,15 @@
 let LETTERS = "Hello, world"
-let TABLEAU = []
+let ARRAY = []
 
 function getLatinCharacterList() {
     for (let i = 0; i < LETTERS.length; i++) {
-        TABLEAU.push(LETTERS[i])
+        ARRAY.push(LETTERS[i])
     }
-    return TABLEAU
+    return ARRAY
 }
 
 getLatinCharacterList()
-console.log(TABLEAU)
+console.log(ARRAY)
 
 const latinToMorse = {
 	'A':'.-',
